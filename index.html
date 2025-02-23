@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPM Hálótervezés Összefoglaló</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="switch">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <div class="a5-container">
+        <h1>Hálótervezés - CPM Összefoglaló</h1>
+        
+        <h2>Előnyök</h2>
+        <ul>
+            <li>Bonyolult folyamatok áttekinthető szervezése</li>
+            <li>Hatékony idő- és erőforrás-kezelés</li>
+            <li>Kritikus út azonosítása</li>
+        </ul>
+
+        <h2>Alapelvek</h2>
+        <div class="principles">
+            <h3>Tevékenység</h3>
+            <ul>
+                <li>Időigényes részfeladat (pl. 2 hét)</li>
+                <li>Jele: nyíl <span class="special-arrow">→</span></li>
+                <li>Erőforrásokat igényel</li>
+            </ul>
+
+            <h3>Esemény</h3>
+            <ul>
+                <li>Kör vagy négyzet jelölés</li>
+                <li>Időpontot jelöl (pl. kezdés/befejezés)</li>
+                <li>Nincs erőforrásigénye</li>
+            </ul>
+
+            <h3>Látszat-tevékenység</h3>
+            <ul>
+                <li>Szaggatott nyíl <span class="special-arrow">- - ></span></li>
+                <li>Logikai kapcsolatot jelez</li>
+                <li>Nincs idő- vagy erőforrásigény</li>
+            </ul>
+        </div>
+
+        <h2>Szerkesztési szabályok</h2>
+        <ul>
+            <li>Csak egy tevékenység köthet két eseményt</li>
+            <li>Hurokmentes struktúra</li>
+            <li>Növekvő számozású események</li>
+            <li>Egy kezdő- és végpont</li>
+        </ul>
+
+        <h2>Műveleti táblázat példa</h2>
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>Esemény</th>
+                <th>Tevékenység (idő)</th>
+            </tr>
+            <tr>
+                <td>1 → 2</td>
+                <td>A (1 nap)</td>
+            </tr>
+            <tr>
+                <td>2 → 3</td>
+                <td>B (2 nap)</td>
+            </tr>
+            <tr>
+                <td>3 → 4</td>
+                <td>C (4 nap)</td>
+            </tr>
+        </table>
+
+        <div class="source">
+            <p>Források:</p>
+            <a href="https://www.mateking.hu/diszkret-matematika/halozatok/cpm-es-pert-kritikus-ut">Mateking - CPM és PERT, kritikus út</a><br>
+            <a href="https://www.slideserve.com/ashby/szervez-si-technik-k-h-l-tervez-s">Szervezési Technikák - Dr. Kosztyán Zsolt</a>
+            <p>Készült: 2024. február</p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
