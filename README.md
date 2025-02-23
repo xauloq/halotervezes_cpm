@@ -3,3 +3,4 @@ Beadandó projekt a **Critical Path Method (CPM)** hálótervezési módszeréne
 
 🛠️ Tech stack: HTML, CSS, JavaScript  
 📅 Készült: 2024. február 23. - IKT Projektmunka órára
+👨🏻‍💻 Készítette: *Nagy Gergő* 10.B
